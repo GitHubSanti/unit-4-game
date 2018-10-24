@@ -1,0 +1,11 @@
+/**
+ Styling Used for Crystals Collector
+ **/
+
+body {
+	background-image: url("../images/dark-grey-terrazzo.png");
+}
+
+.googleFont {
+	font-family: 'Bungee Inline', cursive;
+}

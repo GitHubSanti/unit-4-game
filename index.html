@@ -11,48 +11,48 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
     <!-- Custom javascript file -->
     <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <!-- Custom css file -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-<div class="">
-    <div class="bg-info text-white jumbotron container-fluid rounded">
-        <h1 class="display-2 text-center" style="font-family: 'Bungee Inline', cursive;">Crystals Collector</h1>
+    <div class="bg-warning text-dark jumbotron rounded googleFont">
+        <h1 class="display-2 text-center" >Crystals Collector</h1>
         <p class="lead text-center">Click the crystals to get your 'Current Score' to match the 'Score to Reach' and win!
             <br> Be careful if you go over, you lose!</p>
     </div>
     <div class="container">
-        <div class="card text-white bg-info mb-3">
+        <div class="card text-dark bg-warning mb-2">
             <div class="card-header">
-                <div class="row">
+                <div class="row googleFont">
                     <div class="col text-center">
-                        <h3 style="font-family: 'Bungee Inline', cursive;">Score to Reach: <span id="scoreToReach"></span></h3>
+                        <h3>Score to Reach: <span id="scoreToReach"></span></h3>
                     </div>
                     <div class="col text-center">
-                        <h3 style="font-family: 'Bungee Inline', cursive;">Current Score: <span id="currentScore"></span></h3>
+                        <h3>Current Score: <span id="currentScore"></span></h3>
                     </div>
                 </div>
             </div>
             <div class="card-body">
-                <div class="row pt-2" mx id="crystals">
-                    <img id="redCrystal" class="rounded mx-auto d-block" src="assets/images/redCrystal.jpg" alt="Red Crystal">
-                    <img id="tealCrystal" class="rounded mx-auto d-block" src="assets/images/tealCrystal.jpg" alt="Teal Crystal">
-                    <img id="purpleCrystal" class="rounded mx-auto d-block" src="assets/images/purpleCrystal.jpg" alt="Purple Crystal">
-                    <img id="yellowCrystal" class="rounded mx-auto d-block" src="assets/images/yellowCrystal.jpg" alt="Yellow Crystal">
+                <div class="row pt-1" mx id="crystals">
+                    <img id="redCrystal" class="rounded mx-auto d-block" src="assets/images/redCrystal.JPG" alt="Red Crystal">
+                    <img id="tealCrystal" class="rounded mx-auto d-block" src="assets/images/tealCrystal.JPG" alt="Teal Crystal">
+                    <img id="purpleCrystal" class="rounded mx-auto d-block" src="assets/images/purpleCrystal.JPG" alt="Purple Crystal">
+                    <img id="yellowCrystal" class="rounded mx-auto d-block" src="assets/images/yellowCrystal.JPG" alt="Yellow Crystal">
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row pt-3">
-            <div class="col text-center">
-                <h2><span class="badge badge-success" style="font-family: 'Bungee Inline', cursive;">Wins: <span id="wins"></span></span></h2>
+        <div class="row pt-1">
+            <div class="col text-center googleFont">
+                <h2><span class="badge badge-success">Wins: <span id="wins"></span></span></h2>
             </div>
-            <div class="col text-center">
-                <h2><span class="badge badge-danger" style="font-family: 'Bungee Inline', cursive;">Losses: <span id="losses"></span></span></h2>
+            <div class="col text-center googleFont">
+                <h2><span class="badge badge-danger">Losses: <span id="losses"></span></span></h2>
             </div>
         </div>
     </div>
-</div>
 </body>
 
 </html>
